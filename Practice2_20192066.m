@@ -1,5 +1,5 @@
 %% =========================================
-% Practice 1
+% Practice 2
 % Pendulum Dynamic Simulation
 % 20192066
 % Jihan An
@@ -9,13 +9,6 @@ clear all;      %이전 작업에서의 영향 삭제
 close all;
 
 global p p1         % 변수를 전역으로 선언함
-
-%M = m;
-%C = 0;
-%G = k*x;
-%tau = 0;
-%D2 = inv(M)*(-C-G+tau);
-%D2 = 1/M*(-C-G+tau);    % 가속도 계산
 
 %% 시뮬레이션 준비
 

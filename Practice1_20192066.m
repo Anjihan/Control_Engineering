@@ -26,7 +26,7 @@ t = 0:dt:10;    % 시뮬레이션 시간
 n = length(t);  % iteration 수
 
 x = zeros(1,n); % 0으로 채워진 1,n짜리 공간 % 상태 x(위치) 초기화
-d_x = zeros(1,n);                          % 상태 d_x(속도) 초기화
+d_x = zeros(1,n);                           % 상태 d_x(속도) 초기화
 
 m = 1;      % 질량, [kg]
 k = 100;    % 스프링 계수, [N/m]
